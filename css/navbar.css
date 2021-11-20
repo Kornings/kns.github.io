@@ -1,0 +1,31 @@
+.bg-custom {
+  
+  border: none;
+  color: white;
+  padding: 8px 48px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.bg-custom:hover {
+  background-image: linear-gradient(to left, #1f3c0f 0%, #52830d 51%);
+  color: white;
+}
+
+.bg-active{
+  background-color: transparent !important;
+  transition: 0.3s;
+  color: #ff6924 !important;
+}
+
+
+.link-navbar{
+  color: black;
+  transition: 0.3s;
+}
+
+.link-navbar:hover{
+  color: #ff6924;
+}
